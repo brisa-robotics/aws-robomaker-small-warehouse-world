@@ -1,1341 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
-<sdf version="1.6">
-  <world name="default">
-    
-    <gravity>0 0 -9.8</gravity>
-    <physics default="0" name="default_physics" type="ode">
-      <max_step_size>0.001</max_step_size>
-      <real_time_factor>1</real_time_factor>
-      <real_time_update_rate>1000</real_time_update_rate>
-    </physics>
-
-    
-        
-
-        <model name="aws_robomaker_warehouse_ShelfF_01_001">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
-        </include>
-        <pose frame="">-5.795143 -0.956635 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_001">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">4.73156 0.57943 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_002">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">4.73156 -4.827049 0 0 0 0</pose>
-	</model>
-        
-        <model name="aws_robomaker_warehouse_ShelfE_01_003">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">4.73156 -8.6651 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_001">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">4.73156 -1.242668 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_002">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">4.73156 -3.038551 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_003">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">4.73156 -6.750542 0 0 0 0</pose>
-	</model>
-
-        
-
-        <model name="aws_robomaker_warehouse_GroundB_01_001">
-        <include>
-            <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
-        </include>
-        <pose frame="">0.0 0.0 -0.090092 0 0 0</pose>
-	</model>
-       
-        <model name="aws_robomaker_warehouse_Lamp_01_005">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
-        </include>
-        <pose frame="">0 0 -4 0 0 0</pose>
-	</model>
-       
-	
-
-        <model name="aws_robomaker_warehouse_Bucket_01_021">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
-        </include>
-        <pose frame="">-1.8321 -6.3752 0 0 0 -1.563161</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ClutteringA_01_018">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
-        </include>
-        <pose frame="">-1.491287 5.222435 -0.017477 0 0 -1.583185</pose>
-	</model>
-
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_027">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">3.324959 3.822449 -0.012064 0 0 1.563871</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_028">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">5.54171 3.816475 -0.015663 0 0 -1.583191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_029">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">5.384239 6.137154 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_030">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">3.236 6.137154 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_031">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-1.573677 2.301994 -0.015663 0 0 -3.133191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringD_01_005">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
-        </include>
-        <pose frame="">-1.634682 -7.811813 -0.319559 0 0 0</pose>
-	</model>
-                                                 
-      <model name="aws_robomaker_warehouse_TrashCanC_01_002">
-        <include>
-            <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
-        </include>
-        <pose frame="">-1.592441 7.715420 0 0 0 0</pose>
-	</model>
-
-
-      <light name="Warehouse_CeilingLight_003" type="point">
-      <pose frame="">0 0 9 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
-      <attenuation>
-        <range>80</range>
-        <constant>0.01</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>1</cast_shadows>
-      <direction>0.1 0.1 -1</direction>
-    </light>
-
-    <gui fullscreen="0">
-      <camera name="user_camera">
-        <pose frame="">-4.70385 10.895 16.2659 -0 0.921795 -1.12701</pose>
-        <view_controller>orbit</view_controller>
-        <projection_type>perspective</projection_type>
-      </camera>
-    </gui>
-
-  <model name="aws_robomaker_warehouse_ShelfF_01_001_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
-        </include>
-        <pose frame="">-5.795143 19.950065000000002 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfF_01_001_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
-        </include>
-        <pose frame="">-5.795143 -21.863335 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfF_01_001_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
-        </include>
-        <pose frame="">8.185357 -0.956635 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfF_01_001_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
-        </include>
-        <pose frame="">8.185357 19.950065000000002 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfF_01_001_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
-        </include>
-        <pose frame="">8.185357 -21.863335 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfF_01_001_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
-        </include>
-        <pose frame="">-19.775643 -0.956635 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfF_01_001_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
-        </include>
-        <pose frame="">-19.775643 19.950065000000002 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfF_01_001_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
-        </include>
-        <pose frame="">-19.775643 -21.863335 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_001_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">4.73156 21.48613 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_001_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">4.73156 -20.327270000000002 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_001_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">18.71206 0.57943 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_001_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">18.71206 21.48613 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_001_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">18.71206 -20.327270000000002 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_001_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">-9.24894 0.57943 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_001_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">-9.24894 21.48613 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_001_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">-9.24894 -20.327270000000002 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_002_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">4.73156 16.079651000000002 0 0 0 0</pose>
-	</model>
-        
-        <model name="aws_robomaker_warehouse_ShelfE_01_002_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">4.73156 -25.733749 0 0 0 0</pose>
-	</model>
-        
-        <model name="aws_robomaker_warehouse_ShelfE_01_002_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">18.71206 -4.827049 0 0 0 0</pose>
-	</model>
-        
-        <model name="aws_robomaker_warehouse_ShelfE_01_002_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">18.71206 16.079651000000002 0 0 0 0</pose>
-	</model>
-        
-        <model name="aws_robomaker_warehouse_ShelfE_01_002_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">18.71206 -25.733749 0 0 0 0</pose>
-	</model>
-        
-        <model name="aws_robomaker_warehouse_ShelfE_01_002_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">-9.24894 -4.827049 0 0 0 0</pose>
-	</model>
-        
-        <model name="aws_robomaker_warehouse_ShelfE_01_002_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">-9.24894 16.079651000000002 0 0 0 0</pose>
-	</model>
-        
-        <model name="aws_robomaker_warehouse_ShelfE_01_002_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">-9.24894 -25.733749 0 0 0 0</pose>
-	</model>
-        
-        <model name="aws_robomaker_warehouse_ShelfE_01_003_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">4.73156 12.2416 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_003_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">4.73156 -29.571800000000003 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_003_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">18.71206 -8.6651 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_003_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">18.71206 12.2416 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_003_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">18.71206 -29.571800000000003 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_003_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">-9.24894 -8.6651 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_003_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">-9.24894 12.2416 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfE_01_003_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">-9.24894 -29.571800000000003 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_001_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">4.73156 19.664032 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_001_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">4.73156 -22.149368000000003 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_001_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">18.71206 -1.242668 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_001_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">18.71206 19.664032 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_001_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">18.71206 -22.149368000000003 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_001_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">-9.24894 -1.242668 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_001_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">-9.24894 19.664032 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_001_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">-9.24894 -22.149368000000003 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_002_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">4.73156 17.868149000000003 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_002_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">4.73156 -23.945251 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_002_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">18.71206 -3.038551 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_002_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">18.71206 17.868149000000003 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_002_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">18.71206 -23.945251 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_002_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">-9.24894 -3.038551 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_002_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">-9.24894 17.868149000000003 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_002_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">-9.24894 -23.945251 0 0 0 0</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_003_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">4.73156 14.156158000000001 0 0 0 0</pose>
-	</model>
-
-        
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_003_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">4.73156 -27.657242 0 0 0 0</pose>
-	</model>
-
-        
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_003_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">18.71206 -6.750542 0 0 0 0</pose>
-	</model>
-
-        
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_003_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">18.71206 14.156158000000001 0 0 0 0</pose>
-	</model>
-
-        
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_003_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">18.71206 -27.657242 0 0 0 0</pose>
-	</model>
-
-        
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_003_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">-9.24894 -6.750542 0 0 0 0</pose>
-	</model>
-
-        
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_003_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">-9.24894 14.156158000000001 0 0 0 0</pose>
-	</model>
-
-        
-
-        <model name="aws_robomaker_warehouse_ShelfD_01_003_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
-        </include>
-        <pose frame="">-9.24894 -27.657242 0 0 0 0</pose>
-	</model>
-
-        
-
-        <model name="aws_robomaker_warehouse_GroundB_01_001_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
-        </include>
-        <pose frame="">0.0 20.9067 -0.090092 0 0 0</pose>
-	</model>
-       
-        <model name="aws_robomaker_warehouse_GroundB_01_001_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
-        </include>
-        <pose frame="">0.0 -20.9067 -0.090092 0 0 0</pose>
-	</model>
-       
-        <model name="aws_robomaker_warehouse_GroundB_01_001_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
-        </include>
-        <pose frame="">13.9805 0.0 -0.090092 0 0 0</pose>
-	</model>
-       
-        <model name="aws_robomaker_warehouse_GroundB_01_001_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
-        </include>
-        <pose frame="">13.9805 20.9067 -0.090092 0 0 0</pose>
-	</model>
-       
-        <model name="aws_robomaker_warehouse_GroundB_01_001_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
-        </include>
-        <pose frame="">13.9805 -20.9067 -0.090092 0 0 0</pose>
-	</model>
-       
-        <model name="aws_robomaker_warehouse_GroundB_01_001_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
-        </include>
-        <pose frame="">-13.9805 0.0 -0.090092 0 0 0</pose>
-	</model>
-       
-        <model name="aws_robomaker_warehouse_GroundB_01_001_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
-        </include>
-        <pose frame="">-13.9805 20.9067 -0.090092 0 0 0</pose>
-	</model>
-       
-        <model name="aws_robomaker_warehouse_GroundB_01_001_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
-        </include>
-        <pose frame="">-13.9805 -20.9067 -0.090092 0 0 0</pose>
-	</model>
-       
-        <model name="aws_robomaker_warehouse_Lamp_01_005_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
-        </include>
-        <pose frame="">0.0 20.9067 -4 0 0 0</pose>
-	</model>
-       
-	
-
-        <model name="aws_robomaker_warehouse_Lamp_01_005_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
-        </include>
-        <pose frame="">0.0 -20.9067 -4 0 0 0</pose>
-	</model>
-       
-	
-
-        <model name="aws_robomaker_warehouse_Lamp_01_005_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
-        </include>
-        <pose frame="">13.9805 0.0 -4 0 0 0</pose>
-	</model>
-       
-	
-
-        <model name="aws_robomaker_warehouse_Lamp_01_005_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
-        </include>
-        <pose frame="">13.9805 20.9067 -4 0 0 0</pose>
-	</model>
-       
-	
-
-        <model name="aws_robomaker_warehouse_Lamp_01_005_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
-        </include>
-        <pose frame="">13.9805 -20.9067 -4 0 0 0</pose>
-	</model>
-       
-	
-
-        <model name="aws_robomaker_warehouse_Lamp_01_005_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
-        </include>
-        <pose frame="">-13.9805 0.0 -4 0 0 0</pose>
-	</model>
-       
-	
-
-        <model name="aws_robomaker_warehouse_Lamp_01_005_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
-        </include>
-        <pose frame="">-13.9805 20.9067 -4 0 0 0</pose>
-	</model>
-       
-	
-
-        <model name="aws_robomaker_warehouse_Lamp_01_005_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
-        </include>
-        <pose frame="">-13.9805 -20.9067 -4 0 0 0</pose>
-	</model>
-       
-	
-
-        <model name="aws_robomaker_warehouse_Bucket_01_021_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
-        </include>
-        <pose frame="">-1.8321 14.531500000000001 0 0 0 -1.563161</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_Bucket_01_021_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
-        </include>
-        <pose frame="">-1.8321 -27.2819 0 0 0 -1.563161</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_Bucket_01_021_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
-        </include>
-        <pose frame="">12.148399999999999 -6.3752 0 0 0 -1.563161</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_Bucket_01_021_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
-        </include>
-        <pose frame="">12.148399999999999 14.531500000000001 0 0 0 -1.563161</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_Bucket_01_021_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
-        </include>
-        <pose frame="">12.148399999999999 -27.2819 0 0 0 -1.563161</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_Bucket_01_021_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
-        </include>
-        <pose frame="">-15.8126 -6.3752 0 0 0 -1.563161</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_Bucket_01_021_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
-        </include>
-        <pose frame="">-15.8126 14.531500000000001 0 0 0 -1.563161</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_Bucket_01_021_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
-        </include>
-        <pose frame="">-15.8126 -27.2819 0 0 0 -1.563161</pose>
-	</model>
-
-        <model name="aws_robomaker_warehouse_ClutteringA_01_018_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
-        </include>
-        <pose frame="">-1.491287 26.129135 -0.017477 0 0 -1.583185</pose>
-	</model>
-
-
-     <model name="aws_robomaker_warehouse_ClutteringA_01_018_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
-        </include>
-        <pose frame="">-1.491287 -15.684265 -0.017477 0 0 -1.583185</pose>
-	</model>
-
-
-     <model name="aws_robomaker_warehouse_ClutteringA_01_018_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
-        </include>
-        <pose frame="">12.489213 5.222435 -0.017477 0 0 -1.583185</pose>
-	</model>
-
-
-     <model name="aws_robomaker_warehouse_ClutteringA_01_018_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
-        </include>
-        <pose frame="">12.489213 26.129135 -0.017477 0 0 -1.583185</pose>
-	</model>
-
-
-     <model name="aws_robomaker_warehouse_ClutteringA_01_018_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
-        </include>
-        <pose frame="">12.489213 -15.684265 -0.017477 0 0 -1.583185</pose>
-	</model>
-
-
-     <model name="aws_robomaker_warehouse_ClutteringA_01_018_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
-        </include>
-        <pose frame="">-15.471786999999999 5.222435 -0.017477 0 0 -1.583185</pose>
-	</model>
-
-
-     <model name="aws_robomaker_warehouse_ClutteringA_01_018_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
-        </include>
-        <pose frame="">-15.471786999999999 26.129135 -0.017477 0 0 -1.583185</pose>
-	</model>
-
-
-     <model name="aws_robomaker_warehouse_ClutteringA_01_018_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
-        </include>
-        <pose frame="">-15.471786999999999 -15.684265 -0.017477 0 0 -1.583185</pose>
-	</model>
-
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_027_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">3.324959 24.729149 -0.012064 0 0 1.563871</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_027_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">3.324959 -17.084251000000002 -0.012064 0 0 1.563871</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_027_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">17.305459 3.822449 -0.012064 0 0 1.563871</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_027_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">17.305459 24.729149 -0.012064 0 0 1.563871</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_027_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">17.305459 -17.084251000000002 -0.012064 0 0 1.563871</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_027_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-10.655541 3.822449 -0.012064 0 0 1.563871</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_027_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-10.655541 24.729149 -0.012064 0 0 1.563871</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_027_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-10.655541 -17.084251000000002 -0.012064 0 0 1.563871</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_028_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">5.54171 24.723175 -0.015663 0 0 -1.583191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_028_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">5.54171 -17.090225 -0.015663 0 0 -1.583191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_028_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">19.52221 3.816475 -0.015663 0 0 -1.583191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_028_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">19.52221 24.723175 -0.015663 0 0 -1.583191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_028_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">19.52221 -17.090225 -0.015663 0 0 -1.583191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_028_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-8.43879 3.816475 -0.015663 0 0 -1.583191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_028_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-8.43879 24.723175 -0.015663 0 0 -1.583191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_028_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-8.43879 -17.090225 -0.015663 0 0 -1.583191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_029_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">5.384239 27.043854 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_029_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">5.384239 -14.769546000000002 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_029_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">19.364739 6.137154 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_029_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">19.364739 27.043854 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_029_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">19.364739 -14.769546000000002 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_029_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-8.596260999999998 6.137154 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_029_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-8.596260999999998 27.043854 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_029_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-8.596260999999998 -14.769546000000002 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_030_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">3.236 27.043854 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_030_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">3.236 -14.769546000000002 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_030_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">17.2165 6.137154 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_030_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">17.2165 27.043854 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_030_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">17.2165 -14.769546000000002 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_030_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-10.744499999999999 6.137154 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_030_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-10.744499999999999 27.043854 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_030_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-10.744499999999999 -14.769546000000002 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_031_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-1.573677 23.208694 -0.015663 0 0 -3.133191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_031_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-1.573677 -18.604706 -0.015663 0 0 -3.133191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_031_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">12.406823 2.301994 -0.015663 0 0 -3.133191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_031_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">12.406823 23.208694 -0.015663 0 0 -3.133191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_031_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">12.406823 -18.604706 -0.015663 0 0 -3.133191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_031_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-15.554177 2.301994 -0.015663 0 0 -3.133191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_031_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-15.554177 23.208694 -0.015663 0 0 -3.133191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_031_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-15.554177 -18.604706 -0.015663 0 0 -3.133191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringD_01_005_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
-        </include>
-        <pose frame="">-1.634682 13.094887 -0.319559 0 0 0</pose>
-	</model>
-                                                 
-      <model name="aws_robomaker_warehouse_ClutteringD_01_005_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
-        </include>
-        <pose frame="">-1.634682 -28.718513 -0.319559 0 0 0</pose>
-	</model>
-                                                 
-      <model name="aws_robomaker_warehouse_ClutteringD_01_005_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
-        </include>
-        <pose frame="">12.345818 -7.811813 -0.319559 0 0 0</pose>
-	</model>
-                                                 
-      <model name="aws_robomaker_warehouse_ClutteringD_01_005_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
-        </include>
-        <pose frame="">12.345818 13.094887 -0.319559 0 0 0</pose>
-	</model>
-                                                 
-      <model name="aws_robomaker_warehouse_ClutteringD_01_005_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
-        </include>
-        <pose frame="">12.345818 -28.718513 -0.319559 0 0 0</pose>
-	</model>
-                                                 
-      <model name="aws_robomaker_warehouse_ClutteringD_01_005_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
-        </include>
-        <pose frame="">-15.615181999999999 -7.811813 -0.319559 0 0 0</pose>
-	</model>
-                                                 
-      <model name="aws_robomaker_warehouse_ClutteringD_01_005_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
-        </include>
-        <pose frame="">-15.615181999999999 13.094887 -0.319559 0 0 0</pose>
-	</model>
-                                                 
-      <model name="aws_robomaker_warehouse_ClutteringD_01_005_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
-        </include>
-        <pose frame="">-15.615181999999999 -28.718513 -0.319559 0 0 0</pose>
-	</model>
-                                                 
-      <model name="aws_robomaker_warehouse_TrashCanC_01_002_0_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
-        </include>
-        <pose frame="">-1.592441 28.622120000000002 0 0 0 0</pose>
-	</model>
-
-
-      <model name="aws_robomaker_warehouse_TrashCanC_01_002_0_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
-        </include>
-        <pose frame="">-1.592441 -13.19128 0 0 0 0</pose>
-	</model>
-
-
-      <model name="aws_robomaker_warehouse_TrashCanC_01_002_1_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
-        </include>
-        <pose frame="">12.388058999999998 7.71542 0 0 0 0</pose>
-	</model>
-
-
-      <model name="aws_robomaker_warehouse_TrashCanC_01_002_1_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
-        </include>
-        <pose frame="">12.388058999999998 28.622120000000002 0 0 0 0</pose>
-	</model>
-
-
-      <model name="aws_robomaker_warehouse_TrashCanC_01_002_1_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
-        </include>
-        <pose frame="">12.388058999999998 -13.19128 0 0 0 0</pose>
-	</model>
-
-
-      <model name="aws_robomaker_warehouse_TrashCanC_01_002_2_0">
-        <include>
-            <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
-        </include>
-        <pose frame="">-15.572941 7.71542 0 0 0 0</pose>
-	</model>
-
-
-      <model name="aws_robomaker_warehouse_TrashCanC_01_002_2_1">
-        <include>
-            <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
-        </include>
-        <pose frame="">-15.572941 28.622120000000002 0 0 0 0</pose>
-	</model>
-
-
-      <model name="aws_robomaker_warehouse_TrashCanC_01_002_2_2">
-        <include>
-            <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
-        </include>
-        <pose frame="">-15.572941 -13.19128 0 0 0 0</pose>
-	</model>
-
-
-      <light name="Warehouse_CeilingLight_003_0_1" type="point">
-      <pose frame="">0.0 20.9067 9 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
-      <attenuation>
-        <range>80</range>
-        <constant>0.01</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>1</cast_shadows>
-      <direction>0.1 0.1 -1</direction>
-    </light>
-
-    <light name="Warehouse_CeilingLight_003_0_2" type="point">
-      <pose frame="">0.0 -20.9067 9 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
-      <attenuation>
-        <range>80</range>
-        <constant>0.01</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>1</cast_shadows>
-      <direction>0.1 0.1 -1</direction>
-    </light>
-
-    <light name="Warehouse_CeilingLight_003_1_0" type="point">
-      <pose frame="">13.9805 0.0 9 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
-      <attenuation>
-        <range>80</range>
-        <constant>0.01</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>1</cast_shadows>
-      <direction>0.1 0.1 -1</direction>
-    </light>
-
-    <light name="Warehouse_CeilingLight_003_1_1" type="point">
-      <pose frame="">13.9805 20.9067 9 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
-      <attenuation>
-        <range>80</range>
-        <constant>0.01</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>1</cast_shadows>
-      <direction>0.1 0.1 -1</direction>
-    </light>
-
-    <light name="Warehouse_CeilingLight_003_1_2" type="point">
-      <pose frame="">13.9805 -20.9067 9 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
-      <attenuation>
-        <range>80</range>
-        <constant>0.01</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>1</cast_shadows>
-      <direction>0.1 0.1 -1</direction>
-    </light>
-
-    <light name="Warehouse_CeilingLight_003_2_0" type="point">
-      <pose frame="">-13.9805 0.0 9 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
-      <attenuation>
-        <range>80</range>
-        <constant>0.01</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>1</cast_shadows>
-      <direction>0.1 0.1 -1</direction>
-    </light>
-
-    <light name="Warehouse_CeilingLight_003_2_1" type="point">
-      <pose frame="">-13.9805 20.9067 9 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
-      <attenuation>
-        <range>80</range>
-        <constant>0.01</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>1</cast_shadows>
-      <direction>0.1 0.1 -1</direction>
-    </light>
-
-    <light name="Warehouse_CeilingLight_003_2_2" type="point">
-      <pose frame="">-13.9805 -20.9067 9 0 0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
-      <attenuation>
-        <range>80</range>
-        <constant>0.01</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>1</cast_shadows>
-      <direction>0.1 0.1 -1</direction>
-    </light>
-
-    </world>
-</sdf>
 <?xml version='1.0' encoding='utf-8'?><sdf version="1.6">
   <world name="default">
     
@@ -1521,42 +183,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
         </include>
-        <pose frame="">8.185357 -0.956635 0 0 0 0</pose>
+        <pose frame="">11.185357 -0.956635 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfF_01_001_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
         </include>
-        <pose frame="">8.185357 19.950065000000002 0 0 0 0</pose>
+        <pose frame="">11.185357 19.950065000000002 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfF_01_001_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
         </include>
-        <pose frame="">8.185357 -21.863335 0 0 0 0</pose>
+        <pose frame="">11.185357 -21.863335 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfF_01_001_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
         </include>
-        <pose frame="">-19.775643 -0.956635 0 0 0 0</pose>
+        <pose frame="">-22.775643 -0.956635 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfF_01_001_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
         </include>
-        <pose frame="">-19.775643 19.950065000000002 0 0 0 0</pose>
+        <pose frame="">-22.775643 19.950065000000002 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfF_01_001_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
         </include>
-        <pose frame="">-19.775643 -21.863335 0 0 0 0</pose>
+        <pose frame="">-22.775643 -21.863335 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_001_0_1">
@@ -1577,42 +239,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">18.71206 0.57943 0 0 0 0</pose>
+        <pose frame="">21.71206 0.57943 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_001_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">18.71206 21.48613 0 0 0 0</pose>
+        <pose frame="">21.71206 21.48613 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_001_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">18.71206 -20.327270000000002 0 0 0 0</pose>
+        <pose frame="">21.71206 -20.327270000000002 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_001_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">-9.24894 0.57943 0 0 0 0</pose>
+        <pose frame="">-12.24894 0.57943 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_001_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">-9.24894 21.48613 0 0 0 0</pose>
+        <pose frame="">-12.24894 21.48613 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_001_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">-9.24894 -20.327270000000002 0 0 0 0</pose>
+        <pose frame="">-12.24894 -20.327270000000002 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_002_0_1">
@@ -1633,42 +295,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">18.71206 -4.827049 0 0 0 0</pose>
+        <pose frame="">21.71206 -4.827049 0 0 0 0</pose>
 	</model>
         
         <model name="aws_robomaker_warehouse_ShelfE_01_002_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">18.71206 16.079651000000002 0 0 0 0</pose>
+        <pose frame="">21.71206 16.079651000000002 0 0 0 0</pose>
 	</model>
         
         <model name="aws_robomaker_warehouse_ShelfE_01_002_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">18.71206 -25.733749 0 0 0 0</pose>
+        <pose frame="">21.71206 -25.733749 0 0 0 0</pose>
 	</model>
         
         <model name="aws_robomaker_warehouse_ShelfE_01_002_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">-9.24894 -4.827049 0 0 0 0</pose>
+        <pose frame="">-12.24894 -4.827049 0 0 0 0</pose>
 	</model>
         
         <model name="aws_robomaker_warehouse_ShelfE_01_002_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">-9.24894 16.079651000000002 0 0 0 0</pose>
+        <pose frame="">-12.24894 16.079651000000002 0 0 0 0</pose>
 	</model>
         
         <model name="aws_robomaker_warehouse_ShelfE_01_002_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">-9.24894 -25.733749 0 0 0 0</pose>
+        <pose frame="">-12.24894 -25.733749 0 0 0 0</pose>
 	</model>
         
         <model name="aws_robomaker_warehouse_ShelfE_01_003_0_1">
@@ -1689,42 +351,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">18.71206 -8.6651 0 0 0 0</pose>
+        <pose frame="">21.71206 -8.6651 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_003_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">18.71206 12.2416 0 0 0 0</pose>
+        <pose frame="">21.71206 12.2416 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_003_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">18.71206 -29.571800000000003 0 0 0 0</pose>
+        <pose frame="">21.71206 -29.571800000000003 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_003_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">-9.24894 -8.6651 0 0 0 0</pose>
+        <pose frame="">-12.24894 -8.6651 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_003_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">-9.24894 12.2416 0 0 0 0</pose>
+        <pose frame="">-12.24894 12.2416 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfE_01_003_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">-9.24894 -29.571800000000003 0 0 0 0</pose>
+        <pose frame="">-12.24894 -29.571800000000003 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_001_0_1">
@@ -1745,42 +407,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">18.71206 -1.242668 0 0 0 0</pose>
+        <pose frame="">21.71206 -1.242668 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_001_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">18.71206 19.664032 0 0 0 0</pose>
+        <pose frame="">21.71206 19.664032 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_001_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">18.71206 -22.149368000000003 0 0 0 0</pose>
+        <pose frame="">21.71206 -22.149368000000003 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_001_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">-9.24894 -1.242668 0 0 0 0</pose>
+        <pose frame="">-12.24894 -1.242668 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_001_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">-9.24894 19.664032 0 0 0 0</pose>
+        <pose frame="">-12.24894 19.664032 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_001_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">-9.24894 -22.149368000000003 0 0 0 0</pose>
+        <pose frame="">-12.24894 -22.149368000000003 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_002_0_1">
@@ -1801,42 +463,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">18.71206 -3.038551 0 0 0 0</pose>
+        <pose frame="">21.71206 -3.038551 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_002_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">18.71206 17.868149000000003 0 0 0 0</pose>
+        <pose frame="">21.71206 17.868149000000003 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_002_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">18.71206 -23.945251 0 0 0 0</pose>
+        <pose frame="">21.71206 -23.945251 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_002_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">-9.24894 -3.038551 0 0 0 0</pose>
+        <pose frame="">-12.24894 -3.038551 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_002_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">-9.24894 17.868149000000003 0 0 0 0</pose>
+        <pose frame="">-12.24894 17.868149000000003 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_002_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">-9.24894 -23.945251 0 0 0 0</pose>
+        <pose frame="">-12.24894 -23.945251 0 0 0 0</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ShelfD_01_003_0_1">
@@ -1861,7 +523,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">18.71206 -6.750542 0 0 0 0</pose>
+        <pose frame="">21.71206 -6.750542 0 0 0 0</pose>
 	</model>
 
         
@@ -1870,7 +532,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">18.71206 14.156158000000001 0 0 0 0</pose>
+        <pose frame="">21.71206 14.156158000000001 0 0 0 0</pose>
 	</model>
 
         
@@ -1879,7 +541,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">18.71206 -27.657242 0 0 0 0</pose>
+        <pose frame="">21.71206 -27.657242 0 0 0 0</pose>
 	</model>
 
         
@@ -1888,7 +550,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">-9.24894 -6.750542 0 0 0 0</pose>
+        <pose frame="">-12.24894 -6.750542 0 0 0 0</pose>
 	</model>
 
         
@@ -1897,7 +559,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">-9.24894 14.156158000000001 0 0 0 0</pose>
+        <pose frame="">-12.24894 14.156158000000001 0 0 0 0</pose>
 	</model>
 
         
@@ -1906,7 +568,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
-        <pose frame="">-9.24894 -27.657242 0 0 0 0</pose>
+        <pose frame="">-12.24894 -27.657242 0 0 0 0</pose>
 	</model>
 
         
@@ -1929,42 +591,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
         </include>
-        <pose frame="">13.9805 0.0 -0.090092 0 0 0</pose>
+        <pose frame="">16.9805 0.0 -0.090092 0 0 0</pose>
 	</model>
        
         <model name="aws_robomaker_warehouse_GroundB_01_001_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
         </include>
-        <pose frame="">13.9805 20.9067 -0.090092 0 0 0</pose>
+        <pose frame="">16.9805 20.9067 -0.090092 0 0 0</pose>
 	</model>
        
         <model name="aws_robomaker_warehouse_GroundB_01_001_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
         </include>
-        <pose frame="">13.9805 -20.9067 -0.090092 0 0 0</pose>
+        <pose frame="">16.9805 -20.9067 -0.090092 0 0 0</pose>
 	</model>
        
         <model name="aws_robomaker_warehouse_GroundB_01_001_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
         </include>
-        <pose frame="">-13.9805 0.0 -0.090092 0 0 0</pose>
+        <pose frame="">-16.9805 0.0 -0.090092 0 0 0</pose>
 	</model>
        
         <model name="aws_robomaker_warehouse_GroundB_01_001_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
         </include>
-        <pose frame="">-13.9805 20.9067 -0.090092 0 0 0</pose>
+        <pose frame="">-16.9805 20.9067 -0.090092 0 0 0</pose>
 	</model>
        
         <model name="aws_robomaker_warehouse_GroundB_01_001_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
         </include>
-        <pose frame="">-13.9805 -20.9067 -0.090092 0 0 0</pose>
+        <pose frame="">-16.9805 -20.9067 -0.090092 0 0 0</pose>
 	</model>
        
         <model name="aws_robomaker_warehouse_Lamp_01_005_0_1">
@@ -1989,7 +651,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
         </include>
-        <pose frame="">13.9805 0.0 -4 0 0 0</pose>
+        <pose frame="">16.9805 0.0 -4 0 0 0</pose>
 	</model>
        
 	
@@ -1998,7 +660,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
         </include>
-        <pose frame="">13.9805 20.9067 -4 0 0 0</pose>
+        <pose frame="">16.9805 20.9067 -4 0 0 0</pose>
 	</model>
        
 	
@@ -2007,7 +669,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
         </include>
-        <pose frame="">13.9805 -20.9067 -4 0 0 0</pose>
+        <pose frame="">16.9805 -20.9067 -4 0 0 0</pose>
 	</model>
        
 	
@@ -2016,7 +678,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
         </include>
-        <pose frame="">-13.9805 0.0 -4 0 0 0</pose>
+        <pose frame="">-16.9805 0.0 -4 0 0 0</pose>
 	</model>
        
 	
@@ -2025,7 +687,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
         </include>
-        <pose frame="">-13.9805 20.9067 -4 0 0 0</pose>
+        <pose frame="">-16.9805 20.9067 -4 0 0 0</pose>
 	</model>
        
 	
@@ -2034,7 +696,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
         </include>
-        <pose frame="">-13.9805 -20.9067 -4 0 0 0</pose>
+        <pose frame="">-16.9805 -20.9067 -4 0 0 0</pose>
 	</model>
        
 	
@@ -2057,42 +719,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
         </include>
-        <pose frame="">12.148399999999999 -6.3752 0 0 0 -1.563161</pose>
+        <pose frame="">15.148399999999999 -6.3752 0 0 0 -1.563161</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_Bucket_01_021_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
         </include>
-        <pose frame="">12.148399999999999 14.531500000000001 0 0 0 -1.563161</pose>
+        <pose frame="">15.148399999999999 14.531500000000001 0 0 0 -1.563161</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_Bucket_01_021_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
         </include>
-        <pose frame="">12.148399999999999 -27.2819 0 0 0 -1.563161</pose>
+        <pose frame="">15.148399999999999 -27.2819 0 0 0 -1.563161</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_Bucket_01_021_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
         </include>
-        <pose frame="">-15.8126 -6.3752 0 0 0 -1.563161</pose>
+        <pose frame="">-18.8126 -6.3752 0 0 0 -1.563161</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_Bucket_01_021_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
         </include>
-        <pose frame="">-15.8126 14.531500000000001 0 0 0 -1.563161</pose>
+        <pose frame="">-18.8126 14.531500000000001 0 0 0 -1.563161</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_Bucket_01_021_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
         </include>
-        <pose frame="">-15.8126 -27.2819 0 0 0 -1.563161</pose>
+        <pose frame="">-18.8126 -27.2819 0 0 0 -1.563161</pose>
 	</model>
 
         <model name="aws_robomaker_warehouse_ClutteringA_01_018_0_1">
@@ -2115,7 +777,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
         </include>
-        <pose frame="">12.489213 5.222435 -0.017477 0 0 -1.583185</pose>
+        <pose frame="">15.489213 5.222435 -0.017477 0 0 -1.583185</pose>
 	</model>
 
 
@@ -2123,7 +785,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
         </include>
-        <pose frame="">12.489213 26.129135 -0.017477 0 0 -1.583185</pose>
+        <pose frame="">15.489213 26.129135 -0.017477 0 0 -1.583185</pose>
 	</model>
 
 
@@ -2131,7 +793,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
         </include>
-        <pose frame="">12.489213 -15.684265 -0.017477 0 0 -1.583185</pose>
+        <pose frame="">15.489213 -15.684265 -0.017477 0 0 -1.583185</pose>
 	</model>
 
 
@@ -2139,7 +801,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
         </include>
-        <pose frame="">-15.471786999999999 5.222435 -0.017477 0 0 -1.583185</pose>
+        <pose frame="">-18.471787 5.222435 -0.017477 0 0 -1.583185</pose>
 	</model>
 
 
@@ -2147,7 +809,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
         </include>
-        <pose frame="">-15.471786999999999 26.129135 -0.017477 0 0 -1.583185</pose>
+        <pose frame="">-18.471787 26.129135 -0.017477 0 0 -1.583185</pose>
 	</model>
 
 
@@ -2155,7 +817,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
         </include>
-        <pose frame="">-15.471786999999999 -15.684265 -0.017477 0 0 -1.583185</pose>
+        <pose frame="">-18.471787 -15.684265 -0.017477 0 0 -1.583185</pose>
 	</model>
 
 
@@ -2177,42 +839,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">17.305459 3.822449 -0.012064 0 0 1.563871</pose>
+        <pose frame="">20.305459 3.822449 -0.012064 0 0 1.563871</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_027_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">17.305459 24.729149 -0.012064 0 0 1.563871</pose>
+        <pose frame="">20.305459 24.729149 -0.012064 0 0 1.563871</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_027_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">17.305459 -17.084251000000002 -0.012064 0 0 1.563871</pose>
+        <pose frame="">20.305459 -17.084251000000002 -0.012064 0 0 1.563871</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_027_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-10.655541 3.822449 -0.012064 0 0 1.563871</pose>
+        <pose frame="">-13.655541 3.822449 -0.012064 0 0 1.563871</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_027_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-10.655541 24.729149 -0.012064 0 0 1.563871</pose>
+        <pose frame="">-13.655541 24.729149 -0.012064 0 0 1.563871</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_027_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-10.655541 -17.084251000000002 -0.012064 0 0 1.563871</pose>
+        <pose frame="">-13.655541 -17.084251000000002 -0.012064 0 0 1.563871</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_028_0_1">
@@ -2233,42 +895,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">19.52221 3.816475 -0.015663 0 0 -1.583191</pose>
+        <pose frame="">22.52221 3.816475 -0.015663 0 0 -1.583191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_028_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">19.52221 24.723175 -0.015663 0 0 -1.583191</pose>
+        <pose frame="">22.52221 24.723175 -0.015663 0 0 -1.583191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_028_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">19.52221 -17.090225 -0.015663 0 0 -1.583191</pose>
+        <pose frame="">22.52221 -17.090225 -0.015663 0 0 -1.583191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_028_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-8.43879 3.816475 -0.015663 0 0 -1.583191</pose>
+        <pose frame="">-11.43879 3.816475 -0.015663 0 0 -1.583191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_028_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-8.43879 24.723175 -0.015663 0 0 -1.583191</pose>
+        <pose frame="">-11.43879 24.723175 -0.015663 0 0 -1.583191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_028_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-8.43879 -17.090225 -0.015663 0 0 -1.583191</pose>
+        <pose frame="">-11.43879 -17.090225 -0.015663 0 0 -1.583191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_029_0_1">
@@ -2289,42 +951,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">19.364739 6.137154 0 0 0 3.150000</pose>
+        <pose frame="">22.364739 6.137154 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_029_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">19.364739 27.043854 0 0 0 3.150000</pose>
+        <pose frame="">22.364739 27.043854 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_029_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">19.364739 -14.769546000000002 0 0 0 3.150000</pose>
+        <pose frame="">22.364739 -14.769546000000002 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_029_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-8.596260999999998 6.137154 0 0 0 3.150000</pose>
+        <pose frame="">-11.596260999999998 6.137154 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_029_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-8.596260999999998 27.043854 0 0 0 3.150000</pose>
+        <pose frame="">-11.596260999999998 27.043854 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_029_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-8.596260999999998 -14.769546000000002 0 0 0 3.150000</pose>
+        <pose frame="">-11.596260999999998 -14.769546000000002 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_030_0_1">
@@ -2345,42 +1007,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">17.2165 6.137154 0 0 0 3.150000</pose>
+        <pose frame="">20.2165 6.137154 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_030_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">17.2165 27.043854 0 0 0 3.150000</pose>
+        <pose frame="">20.2165 27.043854 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_030_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">17.2165 -14.769546000000002 0 0 0 3.150000</pose>
+        <pose frame="">20.2165 -14.769546000000002 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_030_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-10.744499999999999 6.137154 0 0 0 3.150000</pose>
+        <pose frame="">-13.744499999999999 6.137154 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_030_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-10.744499999999999 27.043854 0 0 0 3.150000</pose>
+        <pose frame="">-13.744499999999999 27.043854 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_030_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-10.744499999999999 -14.769546000000002 0 0 0 3.150000</pose>
+        <pose frame="">-13.744499999999999 -14.769546000000002 0 0 0 3.150000</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_031_0_1">
@@ -2401,42 +1063,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">12.406823 2.301994 -0.015663 0 0 -3.133191</pose>
+        <pose frame="">15.406823 2.301994 -0.015663 0 0 -3.133191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_031_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">12.406823 23.208694 -0.015663 0 0 -3.133191</pose>
+        <pose frame="">15.406823 23.208694 -0.015663 0 0 -3.133191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_031_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">12.406823 -18.604706 -0.015663 0 0 -3.133191</pose>
+        <pose frame="">15.406823 -18.604706 -0.015663 0 0 -3.133191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_031_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-15.554177 2.301994 -0.015663 0 0 -3.133191</pose>
+        <pose frame="">-18.554177 2.301994 -0.015663 0 0 -3.133191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_031_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-15.554177 23.208694 -0.015663 0 0 -3.133191</pose>
+        <pose frame="">-18.554177 23.208694 -0.015663 0 0 -3.133191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_031_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
-        <pose frame="">-15.554177 -18.604706 -0.015663 0 0 -3.133191</pose>
+        <pose frame="">-18.554177 -18.604706 -0.015663 0 0 -3.133191</pose>
 	</model>
 
      <model name="aws_robomaker_warehouse_ClutteringD_01_005_0_1">
@@ -2457,42 +1119,42 @@
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
         </include>
-        <pose frame="">12.345818 -7.811813 -0.319559 0 0 0</pose>
+        <pose frame="">15.345818 -7.811813 -0.319559 0 0 0</pose>
 	</model>
                                                  
       <model name="aws_robomaker_warehouse_ClutteringD_01_005_1_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
         </include>
-        <pose frame="">12.345818 13.094887 -0.319559 0 0 0</pose>
+        <pose frame="">15.345818 13.094887 -0.319559 0 0 0</pose>
 	</model>
                                                  
       <model name="aws_robomaker_warehouse_ClutteringD_01_005_1_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
         </include>
-        <pose frame="">12.345818 -28.718513 -0.319559 0 0 0</pose>
+        <pose frame="">15.345818 -28.718513 -0.319559 0 0 0</pose>
 	</model>
                                                  
       <model name="aws_robomaker_warehouse_ClutteringD_01_005_2_0">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
         </include>
-        <pose frame="">-15.615181999999999 -7.811813 -0.319559 0 0 0</pose>
+        <pose frame="">-18.615182 -7.811813 -0.319559 0 0 0</pose>
 	</model>
                                                  
       <model name="aws_robomaker_warehouse_ClutteringD_01_005_2_1">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
         </include>
-        <pose frame="">-15.615181999999999 13.094887 -0.319559 0 0 0</pose>
+        <pose frame="">-18.615182 13.094887 -0.319559 0 0 0</pose>
 	</model>
                                                  
       <model name="aws_robomaker_warehouse_ClutteringD_01_005_2_2">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringD_01</uri>
         </include>
-        <pose frame="">-15.615181999999999 -28.718513 -0.319559 0 0 0</pose>
+        <pose frame="">-18.615182 -28.718513 -0.319559 0 0 0</pose>
 	</model>
                                                  
       <model name="aws_robomaker_warehouse_TrashCanC_01_002_0_1">
@@ -2515,7 +1177,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
         </include>
-        <pose frame="">12.388058999999998 7.71542 0 0 0 0</pose>
+        <pose frame="">15.388058999999998 7.71542 0 0 0 0</pose>
 	</model>
 
 
@@ -2523,7 +1185,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
         </include>
-        <pose frame="">12.388058999999998 28.622120000000002 0 0 0 0</pose>
+        <pose frame="">15.388058999999998 28.622120000000002 0 0 0 0</pose>
 	</model>
 
 
@@ -2531,7 +1193,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
         </include>
-        <pose frame="">12.388058999999998 -13.19128 0 0 0 0</pose>
+        <pose frame="">15.388058999999998 -13.19128 0 0 0 0</pose>
 	</model>
 
 
@@ -2539,7 +1201,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
         </include>
-        <pose frame="">-15.572941 7.71542 0 0 0 0</pose>
+        <pose frame="">-18.572941 7.71542 0 0 0 0</pose>
 	</model>
 
 
@@ -2547,7 +1209,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
         </include>
-        <pose frame="">-15.572941 28.622120000000002 0 0 0 0</pose>
+        <pose frame="">-18.572941 28.622120000000002 0 0 0 0</pose>
 	</model>
 
 
@@ -2555,7 +1217,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_TrashCanC_01</uri>
         </include>
-        <pose frame="">-15.572941 -13.19128 0 0 0 0</pose>
+        <pose frame="">-18.572941 -13.19128 0 0 0 0</pose>
 	</model>
 
 
@@ -2588,7 +1250,7 @@
     </light>
 
     <light name="Warehouse_CeilingLight_003_1_0" type="point">
-      <pose frame="">13.9805 0.0 9 0 0 0</pose>
+      <pose frame="">16.9805 0.0 9 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
@@ -2602,7 +1264,7 @@
     </light>
 
     <light name="Warehouse_CeilingLight_003_1_1" type="point">
-      <pose frame="">13.9805 20.9067 9 0 0 0</pose>
+      <pose frame="">16.9805 20.9067 9 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
@@ -2616,7 +1278,7 @@
     </light>
 
     <light name="Warehouse_CeilingLight_003_1_2" type="point">
-      <pose frame="">13.9805 -20.9067 9 0 0 0</pose>
+      <pose frame="">16.9805 -20.9067 9 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
@@ -2630,7 +1292,7 @@
     </light>
 
     <light name="Warehouse_CeilingLight_003_2_0" type="point">
-      <pose frame="">-13.9805 0.0 9 0 0 0</pose>
+      <pose frame="">-16.9805 0.0 9 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
@@ -2644,7 +1306,7 @@
     </light>
 
     <light name="Warehouse_CeilingLight_003_2_1" type="point">
-      <pose frame="">-13.9805 20.9067 9 0 0 0</pose>
+      <pose frame="">-16.9805 20.9067 9 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
@@ -2658,7 +1320,7 @@
     </light>
 
     <light name="Warehouse_CeilingLight_003_2_2" type="point">
-      <pose frame="">-13.9805 -20.9067 9 0 0 0</pose>
+      <pose frame="">-16.9805 -20.9067 9 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
